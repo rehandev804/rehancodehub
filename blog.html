@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="blog.css">
+  <title>Rehan Code Hub</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <div class="nav-left">
+        <a href="index.html"><img src="logo.png" alt="logo"></a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="streams.html">Streams</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="blog.html">Blogs</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+      </div>
+      <div class="nav-right">
+        <i onclick="window.open('sign-up.html')" class="ri-user-3-line"></i> 
+               <i onclick="window.open('store.html')" class="ri-store-fill"></i>
+        
+        <i class="ri-moon-fill"></i>
+        <button><a href="contact.html">Hire Me</a></button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+            class="ri-align-justify"></i></button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Rehan Code Hub</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="streams.html">Streams</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <div class="phone">
+              <i class="ri-phone-fill"></i>
+              <p>+92 3426271198</p>
+            </div>
+            <div class="phone">
+              <i class="ri-mail-fill"></i>
+              <p>rehandeveloper98@gmail.com</p>
+            </div>
+            <div class="phone">
+              <i class="ri-map-pin-fill"></i>
+              <p>Chowk Azam, Layyah, Pakistan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <br>
+  <h1 class="blog_h1">Our Blogs</h1>
+  <div id="main">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Smashing Magazine</h5>
+            <p class="card-text">Smashing Magazine ek well-established blog hai jo web design aur development ke
+              advanced topics par focus karta hai. Yahan aapko modern frontend practices jaise responsive design, CSS
+              Grid, JavaScript performance optimization, aur accessibility ke bare mein detail tutorials milte hain. Ye
+              blog experienced developers ke liye isliye useful hai kyunki yeh industry ke professionals ke dwara likhe
+              gaye deep-dive articles aur case studies publish karta hai, jo practical projects mein directly implement
+              kiye ja sakte hain.</p>
+            <button><a href="https://www.smashingmagazine.com/">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Toptal Web Front-end Blog</h5>
+            <p class="card-text">Toptal ka frontend development blog un developers ke liye best hai jo high-level
+              architecture aur performance tuning jaise topics mein interested hain. Yahaan mostly senior engineers apne
+              real-world experiences ke through React, Vue, testing frameworks, aur scalability pe based articles likhte
+              hain. Freelancers ya product engineers ke liye yeh blog bahut upyogi ho sakta hai.</p>
+            <button><a href="https://www.toptal.com/developers/blog/web-front-end">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">GreatFrontEnd Blog</h5>
+            <p class="card-text">GreatFrontEnd Blog naye zamane ke frontend developers ke liye ek goldmine hai, khaaskar
+              jo React, frontend architecture, aur interview prep jaise areas mein expert banna chahte hain. Ye blog
+              well-structured projects, system design explanations, aur mock interview challenges ke zariye learning
+              provide karta hai. Experienced developers ke liye ye ek great resource hai to level up or mentor others.
+            </p>
+            <button><a href="https://www.greatfrontend.com/blog">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">The Syntax Diaries</h5>
+            <p class="card-text">The Syntax Diaries ek fresh aur advanced blog hai jahan aapko performance optimization,
+              accessibility aur responsive design jaise topics pe modern perspective milta hai. 2024-2025 ke latest best
+              practices aur examples ke saath yeh blog frontend ecosystem ka ek solid snapshot deta hai. Especially
+              React aur CSS performance improve karne ke liye yeh blog worth checking hai.</p>
+            <button><a href="https://thesyntaxdiaries.com/frontend-development-best-practices/">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">LogRocket Blog</h5>
+            <p class="card-text">Chris Coyier ka CSS-Tricks blog frontend developers ke liye ek trusted aur well-loved
+              resource hai. Yeh blog CSS ke advanced features jaise grid, custom properties, animations ke alawa
+              JavaScript aur frontend workflow pe bhi content provide karta hai. Agar aapko UI polish karna ya
+              maintainable styles likhna pasand hai to yeh blog aapka favorite ho sakta hai.</p>
+            <button><a href="https://blog.logrocket.com">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">David Walsh Blog</h5>
+            <p class="card-text">David Walsh ek Mozilla developer hai jinka blog JavaScript aur modern frontend
+              solutions pe deeply focused hai. Yahaan aapko asynchronous programming, performance tweaks aur latest APIs
+              jaise topics pe real examples milte hain. Yeh experienced devs ke liye great hai jo naye features explore
+              karte hain aur browser-level optimizations mein interest rakhte hain.</p>
+            <button><a href="https://css-tricks.com/">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Codrops</h5>
+            <p class="card-text">Codrops mostly creative frontend techniques, animations, aur interactive design pe
+              focus karta hai. Agar aapko microinteractions, transitions, aur modern UI effects pasand hain to yahaan ke
+              demos aur tutorials aapke kaam aayenge. Advanced CSS aur JavaScript animation ke liye yeh ek visual aur
+              engaging resource hai.</p>
+            <button><a href="https://tympanus.net/codrops">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Josh W Comeau Blog</h5>
+            <p class="card-text">Josh W Comeau ka blog React aur CSS ke fusion ka ek behtareen example hai. Har article
+              highly visualized, interactive aur context-rich hota hai, jo complex topics ko bhi samajhne mein asaan
+              bana deta hai. Yeh blog React developers ke liye must-read hai jo clean UI aur developer experience mein
+              interested hain.</p>
+            <button><a href="https://www.joshwcomeau.com/">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+     <footer>
+      <div class="footer-left">
+        <img src="logo.png" alt="Photo">
+        <p>Hi, I'm <b>Rehan</b>, a passionate web developer dedicated to crafting stunning, user-friendly websites that
+          bring your vision to life. With expertise in modern web technologies and a keen eye for design, I create
+          seamless digital experiences that engage and inspire. Whether you need a sleek portfolio, a dynamic e-commerce
+          platform, or a custom web solution, I'm here to deliver excellence with creativity and precision. Let's build
+          something extraordinary together!</p>
+        <div class="link">
+          <a href="https://www.tiktok.com/@ch_rehanidress_804"><i class="ri-tiktok-fill"></i></a>
+          <a href="https://www.youtube.com/@rehan_code_hub"><i class="ri-youtube-fill"></i></a>
+          <a href="https://www.instagram.com/rehan_code_hub/"><i class="ri-instagram-fill"></i></a>
+          <a href="https://www.facebook.com/me/"><i class="ri-facebook-box-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-div">
+          <h6>Quick Links</h6>
+          <p><a href="project.html">Projects</a></p>
+          <p><a href="streams.html">Streams</a></p>
+          <p><a href="courses.html">Course</a></p>
+          <p><a href="blog.html">Blog</a></p>
+          <p><a href="about.html">About</a></p>
+          <p><a href="contact.html">Contact Us</a></p>
+          <p><a href="services.html">Services</a></p>
+          <p><a href="store.html">My Store</a></p>
+          <p><a href="contact.html">Hire Me</a></p>
+        </div>
+        <div class="footer-div">
+          <h6>Services</h6>
+          <p><a href="services.html">Web Development</a></p>
+          <p><a href="services.html">Video Editing</a></p>
+          <p><a href="services.html">Social Media Ads</a></p>
+          <p><a href="services.html">Graphic Designing</a></p>
+          <p><a href="services.html">3D Modeling</a></p>
+          <p><a href="services.html">Search Engine</a></p>
+          <p><a href="services.html">Digital Markerting</a></p>
+          <p><a href="services.html">Content Creation</a></p>
+        </div>
+        <div class="footer-div">
+          <h6>Contact</h6>
+          <p><a href="#">+92 3426271198</a></p>
+          <p><a href="#">rehandeveloper98@gmail.com</a></p>
+          <p><a href="#">Layyah, Chowk Azam</a></p>
+        </div>
+        <div class="subscribe">
+          <h4 class="footer_h1">Newsletter</h4>
+          <input type="text" class="subscribe_input" placeholder="Enter Email">
+          <button class="subscribe_btn">Subscribe</button>
+          <p class="footer_p">Stay updated with the latest news, exclusive offers, and expert tips by subscribing to our
+            newsletter! Join our community to receive handpicked content, special promotions, and insider updates
+            delivered straight to your inbox. Don’t miss out—sign up today and be the first to know!</p>
+          <li><i class="ri-mail-line"></i> rehandeveloper98@gmail.com</li>
+          <li><i class="ri-phone-line"></i> +92 3426271198</li>
+        </div>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
